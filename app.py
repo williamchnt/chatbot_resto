@@ -358,7 +358,7 @@ def generate_answer():
         st.session_state.history.append({"message": "Aurevoir et à bientôt", "is_user": False,"key":random.randint(1,100000)})
 
 
-st.text_input("Bonjour, marre de la routine ? Vous souhaitez changer de restaurant ? Taper le nom d'un restaurant et je vous ferais mes meilleurs recommandations !", key="input_text", on_change=generate_answer)
+st.text_input("Bonjour, marre de la routine ? Vous souhaitez changer de restaurant ? Taper le nom d'un restaurant et je vous ferai mes meilleures recommandations !", key="input_text", on_change=generate_answer)
 
 # HelloText = "Hello, I am the American Airlines Chatbot. You can ask me any question regarding our company :"
 # st.session_state.history.append({"message": HelloText, "is_user": False,"key":random.randint(1,100000)})
